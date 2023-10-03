@@ -177,7 +177,14 @@ ul.jobs {
 /* Start of Home page */
 
 .slideshow {
-    padding-top: 50px;
+    padding: 50px 0;
+}
+
+.slideshow > h1 {
+    display: flex;
+    justify-content: center;
+    color: #FF4500;
+    font-family: 'Black Ops One', sans-serif;
 }
 
 .w3-content {
@@ -199,7 +206,7 @@ img[src*="IMG_8742"], img[src*="IMG_8743"], img[src*="IMG_8744"] {
 .w3-display-left {
     position: absolute;
     top: 50% !important;
-    left: 10% !important;
+    left: 25% !important;
     transform: translate(0%,-50%);
     -ms-transform: translate(-0%,-50%);
 }
@@ -207,7 +214,7 @@ img[src*="IMG_8742"], img[src*="IMG_8743"], img[src*="IMG_8744"] {
 .w3-display-right {
     position: absolute;
     top: 50% !important;
-    right: 10% !important;
+    right: 25% !important;
     transform: translate(0%,-50%);
     -ms-transform: translate(-0%,-50%);
 }
@@ -221,7 +228,7 @@ img[src*="IMG_8742"], img[src*="IMG_8743"], img[src*="IMG_8744"] {
 /* Start of Projects page */
 
 .mySlides {
-    width: 80% !important;
+    width: 50% !important;
     margin: auto;
     border-radius: 10px;
 }
@@ -364,14 +371,12 @@ ul.breadcrumb li a:hover {
 img[src*="IMG_1136"] {
     display: flex;
     position: relative;
-    margin: 0;
     border-radius: 10px;
 }
 
 img[src*="IMG_2902"] {
     display: flex;
     position: relative;
-    margin: 0;
     border-radius: 10px;
 }
 
@@ -389,7 +394,6 @@ img[src*="IMG_2902"] {
 img[src*="IMG_1960"] {
     display: flex;
     position: relative;
-    margin: 0;
     border-radius: 10px;
 }
 
