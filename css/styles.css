@@ -368,13 +368,7 @@ ul.breadcrumb li a:hover {
 
 /* Start of Animals page */
 
-img[src*="IMG_1136"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
-
-img[src*="IMG_2902"] {
+img[src*="IMG_1136"], img[src*="IMG_2798"] {
     display: flex;
     position: relative;
     border-radius: 10px;
@@ -391,14 +385,11 @@ img[src*="IMG_2902"] {
 
 /* Start of Nature page */
 
-img[src*="IMG_1960"] {
+img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"] {
     display: flex;
     position: relative;
     border-radius: 10px;
 }
-
-
-
 
 
 
@@ -414,7 +405,6 @@ img[src*="IMG_1960"] {
 img[src*="IMG_1961"] {
     display: flex;
     position: relative;
-    margin: 0;
     border-radius: 10px;
 }
 
@@ -429,6 +419,19 @@ img[src*="IMG_1961"] {
 /* End of Random People page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Start of Structures page */
+
+img[src*="IMG_1039"] {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+
+/* End of Structures page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
