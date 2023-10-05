@@ -203,8 +203,8 @@
 
     .before-after {
         grid-template-columns: initial;
-        gap: 5%;
-        padding-bottom: 220px;
+        gap: 2%;
+        padding-bottom: 320px;
     }
 
     .card { width: initial; }

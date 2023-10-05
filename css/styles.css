@@ -290,12 +290,21 @@ ul.breadcrumb li a:hover {
 
 .not-active { color: gray; }
 
+.gallery {
+    display: block;
+    padding: 0 0 100px 0;
+    margin: 0 auto;
+}
+
 .before-after {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    padding-bottom: 120px;
-    row-gap: 5%;
+    /*padding-bottom: 100px;*/
+    /*row-gap: 2%;*/
+}
 
+.card-container {
+    padding: 18px 20px 10px;
 }
 
 .card {
@@ -305,6 +314,7 @@ ul.breadcrumb li a:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     border-radius: 10px;
     width: 50%;
+    cursor: pointer;
 }
 
 .before, .after > h3 {
