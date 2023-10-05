@@ -1,6 +1,7 @@
 :root {
     --white: #FFF;
     --black: #000;
+    --background-color: #2F2F2F;
     --font-color-base: #666;
     --font-color-dark: #212529;
     --font-color-light: #B0AEBE;
@@ -42,6 +43,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color);
 }
 
 /* 5. Improve media defaults */

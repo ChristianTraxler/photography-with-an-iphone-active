@@ -67,7 +67,10 @@ nav > ul > li > a {
 .contact {
     padding: 21px 20px;
     font-family: 'Black Ops One', sans-serif;
+    color: #FF4500;
 }
+
+.contact-2 > a { color: #FF4500}
 
 img[src*="LHR-Grading(2)"] {
     width: 80px;
@@ -332,11 +335,9 @@ ul.breadcrumb li a:hover {
 
 .before > h3 {
     position: relative;
-    /*text-align: right;*/
-    /*top: 250px;*/
-    /*left: 800px;*/
-    /*width: 8%;*/
     overflow-wrap: initial;
+    font-size: 28px;
+    padding: 6px;
 }
 
 .before-wrapper, .after-wrapper {
@@ -369,7 +370,10 @@ ul.breadcrumb li a:hover {
     font-size: 40px;
 }
 
-
+.random {
+    font-size: 30px;
+    padding: 6px;
+}
 
 
 /* End of Before & After page */
@@ -412,7 +416,7 @@ img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"] {
 
 /* Start of Random People page */
 
-img[src*="IMG_1961"] {
+img[src*="IMG_1961"], img[src*="IMG_1729"] {
     display: flex;
     position: relative;
     border-radius: 10px;
@@ -445,6 +449,22 @@ img[src*="IMG_1039"], img[src*="IMG_090E"] {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/* Start of Sunset & the Moon page */
+
+img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_2030"] {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* End of Sunset & the Moon page */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /* Start of Contact page */
 
 .contact> h1 {
@@ -456,13 +476,14 @@ img[src*="IMG_1039"], img[src*="IMG_090E"] {
 .contact-2 {
     padding-top: 40px;
     font-size: 18px;
+    text-align: center;
 }
 
-.contact-2 > p > a {
-    color: black;
+.contact-2 > .email {
+    color: var(--white)
 }
 
-.contact-2 > .tel { color: black; }
+.contact-2 > .tel { color: var(--white) }
 
 
 /* End of Contact page */

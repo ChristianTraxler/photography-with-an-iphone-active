@@ -133,25 +133,6 @@
 
 @media screen and (max-width: 480px) {
 
-    /* Coming Soon page */
-
-    img[src*="LHR-logo(white)"] { width: 20%;}
-
-    .middle > .construction > h1 { font-size: 40px; }
-
-    .middle {
-        position: absolute;
-        top: 30%;
-        text-align: center;
-        transform: initial;
-        left: initial;
-    }
-
-    .middle > p { padding: 20px 15px; }
-
-
-    /* End of Coming Soon page */
-
     /* Start of Home page */
 
     .mySlides { width: 100% !important; }
@@ -166,6 +147,8 @@
     .container { grid-template-rows: 60px 233px auto auto; }
 
     .welcome { bottom: initial; }
+
+    .welcome > p { text-indent: initial; }
 
     .services {
         /*padding-bottom: 250px;*/
@@ -198,8 +181,6 @@
     }
 
     /* Start of Before & After page */
-
-
 
     .before-after {
         grid-template-columns: initial;
