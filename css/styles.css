@@ -432,7 +432,7 @@ img[src*="IMG_1961"] {
 
 /* Start of Structures page */
 
-img[src*="IMG_1039"] {
+img[src*="IMG_1039"], img[src*="IMG_090E"] {
     display: flex;
     position: relative;
     border-radius: 10px;
