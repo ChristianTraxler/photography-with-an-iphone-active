@@ -397,6 +397,22 @@ img[src*="IMG_1136"], img[src*="IMG_2798"] {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/* Start of Moon & Sunset page */
+
+img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_2030"] {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* End of Moon & Sunset page */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /* Start of Nature page */
 
 img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"] {
@@ -411,6 +427,20 @@ img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"] {
 
 
 /* End of Nature page */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Start of Random Objects */
+
+img[src*="IMG_2085"] {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+/* End of Random Objects */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -446,22 +476,6 @@ img[src*="IMG_1039"], img[src*="IMG_090E"] {
 
 
 /* End of Structures page */
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-/* Start of Sunset & the Moon page */
-
-img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_2030"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
-
-
-
-
-
-/* End of Sunset & the Moon page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
