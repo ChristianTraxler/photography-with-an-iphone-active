@@ -80,9 +80,7 @@ img[src*="LHR-Grading(2)"] {
 
 .desktop { position: relative; }
 
-.mobile-landscape {
-    display: none;
-}
+.mobile-landscape { display: none; }
 
 .info {
     grid-area: info;
@@ -174,9 +172,7 @@ ul.jobs {
 
 /* Start of Home page */
 
-.slideshow {
-    padding: 50px 0;
-}
+.slideshow { padding: 50px 0; }
 
 .slideshow > h1 {
     display: flex;
@@ -187,7 +183,6 @@ ul.jobs {
 
 .w3-content {
     margin: auto;
-    /*padding-top: 50px;*/
     width: 90%;
 }
 
@@ -217,8 +212,6 @@ img[src*="IMG_8742"], img[src*="IMG_8743"], img[src*="IMG_8744"] {
     -ms-transform: translate(-0%,-50%);
 }
 
-
-
 /* End of Home page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -237,9 +230,6 @@ img[src*="IMG_0544"], img[src*="IMG_6590"] {
     margin: 0;
     border-radius: 10px;
 }
-
-
-
 
 /* End of Projects page *?
 
@@ -271,7 +261,6 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-    /*color: #0275d8;*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -282,9 +271,7 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
-.active {
-    color: #0275d8;
-}
+.active { color: #0275d8; }
 
 .not-active { color: gray; }
 
@@ -297,13 +284,9 @@ ul.breadcrumb li a:hover {
 .before-after {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    /*padding-bottom: 100px;*/
-    /*row-gap: 2%;*/
 }
 
-.card-container {
-    padding: 18px 20px 10px;
-}
+.card-container { padding: 18px 20px 10px; }
 
 .card {
     margin: 0 auto;
@@ -325,7 +308,6 @@ ul.breadcrumb li a:hover {
     /*display: grid;*/
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 50%);
-    /*border: solid 2px yellow;*/
 }
 
 .before > h3 {
@@ -337,23 +319,19 @@ ul.breadcrumb li a:hover {
 
 .before-wrapper, .after-wrapper {
     display: grid;
-    /*grid-template-rows: repeat(1, 1fr);*/
-    /*grid-template-columns: repeat(2, 50%);*/
     margin: auto;
     width: 100%;
     max-width: 1200px;
-    /*padding: 10px 30px;*/
-    /*position: relative;*/
 }
 
-.after {
-    /*display: grid;*/
-    /*grid-template-rows: repeat(1, 1fr);*/
-    /*grid-template-columns: repeat(2, 35%);*/
-    /*justify-content: center;*/
-    /*padding-top: 60px;*/
-    /*border: solid 2px white;*/
-}
+/*.after {*/
+/*    display: grid;*/
+/*    grid-template-rows: repeat(1, 1fr);*/
+/*    grid-template-columns: repeat(2, 35%);*/
+/*    justify-content: center;*/
+/*    padding-top: 60px;*/
+/*    border: solid 2px white;*/
+/*}*/
 
 .after > h3 {
     position: relative;
@@ -370,18 +348,24 @@ ul.breadcrumb li a:hover {
     padding: 6px;
 }
 
+.photo {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
 
-/* End of Before & After page */
+
+/* End of Gallery page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Start of Animals page */
 
-img[src*="IMG_1136"], img[src*="IMG_2798"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
+/*img[src*="IMG_1136"], img[src*="IMG_2798"] {*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 
 
@@ -414,13 +398,6 @@ img[src*="IMG_1136"], img[src*="IMG_2798"] {
     padding: 15px 10px 15px 10px;
 }
 
-img[src*="IMG_9781"], img[src*="IMG_0491"], img[src*="IMG_0992"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
-
-
 /* End of Oakley page */
 
 
@@ -430,11 +407,11 @@ img[src*="IMG_9781"], img[src*="IMG_0491"], img[src*="IMG_0992"] {
 
 /* Start of Moon & Sunset page */
 
-img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_2030"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
+/*img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_2030"] {*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 
 
@@ -446,28 +423,30 @@ img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_
 
 /* Start of Nature page */
 
-img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"], img[src*="IMG_4649"], img[src*="IMG_0929"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
+    /*~~~~~~~~~~~~~~~~~~~*/
+    /* Start of Insects page */
 
 
 
+    /* End of Insects page */
+    /*~~~~~~~~~~~~~~~~~~~*/
+    /* Start of Plants page */
 
 
+    /* End of Plants page
+    /*~~~~~~~~~~~~~~~~~~~*/
 
-/* End of Nature page */
+    /* End of Nature page */
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Start of Random Objects */
 
-img[src*="IMG_2085"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
+/*img[src*="IMG_2085"] {*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 
 
@@ -477,17 +456,11 @@ img[src*="IMG_2085"] {
 
 /* Start of Random People page */
 
-img[src*="IMG_1961"], img[src*="IMG_1729"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
-
-
-
-
-
-
+/*img[src*="IMG_1961"], img[src*="IMG_1729"] {*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 
 
@@ -497,11 +470,11 @@ img[src*="IMG_1961"], img[src*="IMG_1729"] {
 
 /* Start of Structures page */
 
-img[src*="IMG_1039"], img[src*="IMG_090E"] {
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
+/*img[src*="IMG_1039"], img[src*="IMG_090E"] {*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
 
 
