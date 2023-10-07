@@ -78,10 +78,7 @@ img[src*="LHR-Grading(2)"] {
     border-radius: 0 0 10px 10px;
 }
 
-.desktop {
-    position: relative;
-    /*bottom: 120px;*/
-}
+.desktop { position: relative; }
 
 .mobile-landscape {
     display: none;
@@ -94,14 +91,12 @@ img[src*="LHR-Grading(2)"] {
 
 .welcome {
     grid-area: welcome;
-    /*background-color: orangered;*/
     position: relative;
-    /*bottom: 150px;*/
 }
 
 .welcome > h1 {
     padding: 60px 0;
-    font-size: 40px;
+    font-size: var(--size-40);
     text-align: center;
     font-family: 'Black Ops One', sans-serif;
     color: #FF4500;
@@ -110,7 +105,7 @@ img[src*="LHR-Grading(2)"] {
 .welcome > p {
     text-align: left;
     padding: 0 20px 10px 20px;
-    font-size: 18px;
+    font-size: var(--size-18);
     font-weight: 600;
     text-indent: 50px;
     color: #FF4500;
@@ -390,7 +385,43 @@ img[src*="IMG_1136"], img[src*="IMG_2798"] {
 
 
 
+/* Start of Oakley page */
 
+.oakley {
+    grid-area: welcome;
+    /* background-color: orangered; */
+    position: relative;
+    /* bottom: 150px; */
+}
+
+.oakley > h1 {
+    padding: 60px 0 20px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+    color: #FF4500;
+}
+
+.oakley > p {
+    padding: 0 0 60px 0;
+    text-align: center;
+    font-size: var(--size-30);
+    font-family: 'Black Ops One', sans-serif;
+    color: #FF4500;
+}
+
+.oakley-card {
+    padding: 15px 10px 15px 10px;
+}
+
+img[src*="IMG_9781"] {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+/* End of Oakley page */
 
 
 /* End of Animals page */
