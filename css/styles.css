@@ -446,7 +446,7 @@ img[src*="IMG_1010"], img[src*="IMG_1871"], img[src*="IMG_2026"], img[src*="IMG_
 
 /* Start of Nature page */
 
-img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"] {
+img[src*="IMG_1960"], img[src*="IMG_5C49"], img[src*="IMG_0921"], img[src*="IMG_4649"], img[src*="IMG_0929"] {
     display: flex;
     position: relative;
     border-radius: 10px;
