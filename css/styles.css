@@ -414,7 +414,7 @@ img[src*="IMG_1136"], img[src*="IMG_2798"] {
     padding: 15px 10px 15px 10px;
 }
 
-img[src*="IMG_9781"] {
+img[src*="IMG_9781"], img[src*="IMG_0491"], img[src*="IMG_0992"] {
     display: flex;
     position: relative;
     border-radius: 10px;
