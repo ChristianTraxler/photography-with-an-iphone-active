@@ -73,7 +73,7 @@ nav > ul > li > a {
 
 .contact-2 > a { color: #FF4500}
 
-img[src*="iphone-logo"], img[src*="IMG_2292"] {
+img[src*="iphone-logo"] {
     width: 130px;
     padding: 13px;
     border-radius: 0 0 10px 10px;

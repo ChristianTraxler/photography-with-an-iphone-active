@@ -150,10 +150,7 @@
 
     .welcome > p { text-indent: initial; }
 
-    .services {
-        /*padding-bottom: 250px;*/
-        bottom: 5px;
-    }
+    .services { bottom: 5px; }
 
     .before-after-area {
         padding-bottom: 250px;
@@ -179,6 +176,8 @@
         width: 6%;
         /*top: 7px;*/
     }
+
+    img[src*="iphone-logo"] { width: 100px; }
 
     /* Start of Before & After page */
 
