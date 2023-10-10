@@ -68,12 +68,13 @@ nav > ul > li > a {
     padding: 21px 20px;
     font-family: 'Black Ops One', sans-serif;
     color: #FF4500;
+    font-size: var(--size-18);
 }
 
 .contact-2 > a { color: #FF4500}
 
-img[src*="LHR-Grading(2)"] {
-    width: 80px;
+img[src*="LHR-Grading(2)"], img[src*="IMG_2292"] {
+    width: 130px;
     padding: 0;
     border-radius: 0 0 10px 10px;
 }
