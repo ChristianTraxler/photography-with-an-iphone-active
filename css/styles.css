@@ -73,10 +73,11 @@ nav > ul > li > a {
 
 .contact-2 > a { color: #FF4500}
 
-img[src*="LHR-Grading(2)"], img[src*="IMG_2292"] {
+img[src*="iphone-logo"], img[src*="IMG_2292"] {
     width: 130px;
-    padding: 0;
+    padding: 13px;
     border-radius: 0 0 10px 10px;
+    background-color: white;
 }
 
 .desktop { position: relative; }
