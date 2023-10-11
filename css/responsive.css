@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
 
-    .mobile-landscape { display: none; }
+    /*.mobile-landscape { display: none; }*/
 
     /*.services { bottom: 100px; }*/
 
@@ -56,7 +56,7 @@
 
     video { display: none; }
 
-    .mobile-landscape { display: initial; }
+    /*.mobile-landscape { display: initial; }*/
 
 
     /* End of Header section */
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 836px) and (orientation: landscape) {
 
-    .mobile { display: none; }
+    /*.mobile { display: none; }*/
 
     /*.services { bottom: 100px; }*/
 
@@ -111,7 +111,7 @@
 @media screen and (min-width: 766px) and (max-width: 832px) and (orientation: landscape) {
 
     /*video { display: none; }*/
-    .mobile-landscape { display: initial; }
+    /*.mobile-landscape { display: initial; }*/
 
     .services-container > p, ul.jobs { font-size: 16px; }
 }
@@ -120,9 +120,9 @@
 
     /*video, .desktop { display: none; }*/
 
-    .mobile { display: none; }
+    /*.mobile { display: none; }*/
 
-    .mobile-landscape { display: initial; }
+    /*.mobile-landscape { display: initial; }*/
 
     img[src*="DOC"] {
         width: 5%;
@@ -159,11 +159,11 @@
 
     .services-container { padding-bottom: 100px; }
 
-    .desktop { bottom: initial; }
+    /*.desktop { bottom: initial; }*/
 
-    .mobile-landscape { display: none; }
+    /*.mobile-landscape { display: none; }*/
 
-    .mobile { display: initial; }
+    /*.mobile { display: initial; }*/
 
     .before-after { padding: 10px 20px; }
 
