@@ -82,7 +82,7 @@ img[src*="iphone-logo"] {
 
 .desktop { position: relative; }
 
-.mobile-landscape { display: none; }
+.mobile{ display: none; }
 
 .info {
     grid-area: info;

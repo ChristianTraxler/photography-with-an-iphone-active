@@ -159,11 +159,9 @@
 
     .services-container { padding-bottom: 100px; }
 
-    /*.desktop { bottom: initial; }*/
+    .desktop { display: none; }
 
-    /*.mobile-landscape { display: none; }*/
-
-    /*.mobile { display: initial; }*/
+    .mobile { display: initial; }
 
     .before-after { padding: 10px 20px; }
 
