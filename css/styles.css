@@ -315,7 +315,7 @@ ul.breadcrumb li a:hover {
 .before > h3 {
     position: relative;
     overflow-wrap: initial;
-    font-size: 28px;
+    font-size: 2vw;
     padding: 6px;
 }
 

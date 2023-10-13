@@ -47,11 +47,10 @@
     .before > h3 {
         top: initial;
         left: initial;
+        font-size: 3.5vw;
     }
 
-    .card {
-        width: 100%;
-    }
+    .card { width: 100%; }
 }
 
 @media screen and (min-width: 667px) and (max-width: 736px) {
@@ -191,6 +190,8 @@
         padding-bottom: 320px;
     }
 
+    .before > h3 { font-size: 6vw; }
+
     .card { width: initial; }
 
     /*.lightbox > img[src*="IMG_8742"] {*/
@@ -205,9 +206,7 @@
     .contact-2 { padding: 0 0 100px 0; }
 
 
-    .form {
-        min-height: 2150px !important;
-    }
+    .form { min-height: 2150px !important; }
 
 
 
