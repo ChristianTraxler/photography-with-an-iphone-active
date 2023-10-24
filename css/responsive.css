@@ -192,7 +192,7 @@
 
     .before > h3 { font-size: 6vw; }
 
-    .card { width: initial; }
+    .card, .random-person-card { width: initial; }
 
     /*.lightbox > img[src*="IMG_8742"] {*/
     /*    width: initial;*/
