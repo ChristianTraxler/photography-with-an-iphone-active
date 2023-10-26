@@ -56,6 +56,8 @@
 										<img src="assets/images/nature/valdese-lakeside-park/IMG_2336.png" class="photo" alt="leaf photo">
 									</div>
 									<h3>Leaf</h3>
+									<button class="button-47" role="button"><a href="https://photographywithaniphone.pic-time.com/-nature/gallery" target="_blank">Buy
+									</a></button>
 								</section>
 							</div>
 						</div>
@@ -141,29 +143,29 @@
 		</div>
 
 		<script>
-	function currentDiv(n) {
-		showDivs(slideIndex = n);
-	}
+			function currentDiv(n) {
+				showDivs(slideIndex = n);
+			}
 
-	function showDivs(n) {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("demo");
-		if (n > x.length) {slideIndex = 1}
-		if (n < 1) {slideIndex = x.length}
-		for (i = 0; i < x.length; i++) {
-			x[i].style.display = "none";
-		}
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-		}
-		x[slideIndex-1].style.display = "block";
-		dots[slideIndex-1].className += " w3-opacity-off";
-	}
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("demo");
+				if (n > x.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+				}
+				x[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " w3-opacity-off";
+			}
 
-	document.addEventListener('contextmenu', event => {
-		event.preventDefault();
-	});
-</script>
+			document.addEventListener('contextmenu', event => {
+				event.preventDefault();
+			});
+		</script>
 	</body>
 </html>
