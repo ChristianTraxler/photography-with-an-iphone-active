@@ -184,6 +184,8 @@
 
     /* Start of Before & After page */
 
+    .gallery { padding: 0 0 150px 0; }
+
     .before-after {
         grid-template-columns: initial;
         gap: 2%;
