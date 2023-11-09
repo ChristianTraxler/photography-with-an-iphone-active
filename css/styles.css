@@ -46,6 +46,11 @@ nav > ul > li { display: block; }
 nav > ul > li > a {
     color: #C0C2C3;
     text-decoration: none;
+    background: linear-gradient(110deg, #FF4500 0.07%, #F46772 46.07%, #AF33E4 95.21%);;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 /*ul {*/
@@ -89,9 +94,23 @@ img[src*="iphone-logo"] {
     background-color: brown;
 }
 
+hr {
+    margin: auto;
+    border: 1px solid whitesmoke;
+    width: 80%;
+}
+
 .welcome {
     grid-area: welcome;
     position: relative;
+}
+
+h3 {
+    padding: 60px 0;
+    font-size: var(--size-30);
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+    color: #FF4500;
 }
 
 .welcome > h1 {
@@ -109,6 +128,17 @@ img[src*="iphone-logo"] {
     font-weight: 600;
     text-indent: 50px;
     color: #FF4500;
+}
+
+.welcome > .purchase1 {
+    text-align: center;
+    text-indent: inherit;
+}
+
+.welcome > .purchase2 {
+    text-align: center;
+    text-indent: inherit;
+    padding-bottom: 40px;
 }
 
 .services {
@@ -168,6 +198,78 @@ ul.jobs {
     display: inline-block;
     text-align: left;
     font-size: 18px;
+}
+
+.e-o { margin: 10px; }
+
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+
+.button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+    transform: scale(1.1);
+}
+
+.button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+}
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -310,6 +412,32 @@ ul.breadcrumb li a:hover {
     cursor: pointer;
 }
 
+
+.button-47 {
+    align-items: center;
+    /* background: #FFFFFF; */
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    background-color: #FF4500;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 35px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    /* padding: 24px; */
+    text-decoration: none !important;
+    width: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
 .before, .after > h3 {
     font-size: 30px;
     text-align: center;
@@ -434,6 +562,12 @@ ul.breadcrumb li a:hover {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Start of Nature page */
+
+.nature-sections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
     /*~~~~~~~~~~~~~~~~~~~*/
     /* Start of Insects page */
@@ -691,6 +825,11 @@ img[src*="mail"] {
 .email {
     text-decoration: none;
     color: var(--white);
+    background: linear-gradient(110deg, #FF4500 0.07%, #F46772 46.07%, #AF33E4 95.21%);;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 img[src*="mobile"] {
